@@ -8,4 +8,4 @@ FROM gcr.io/distroless/nodejs
 
 COPY --from=build /next_js-app /
 EXPOSE 3000
-CMD ["run", "start"]
+CMD ["start"]
